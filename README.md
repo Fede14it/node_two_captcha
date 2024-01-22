@@ -12,10 +12,8 @@ Node TwoCaptcha is a Javascript package for 2Captcha -
 Just run:
 
 ```bash
-npm install @infosimples/node_two_captcha
+npm install @fede14it/node_two_captcha
 ```
-
-JSDoc documentation can be found at https://infosimples.github.io/node_two_captcha/
 
 ## Usage
 
@@ -23,7 +21,7 @@ JSDoc documentation can be found at https://infosimples.github.io/node_two_captc
 
 ```javascript
 // Import module
-const Client = require('@infosimples/node_two_captcha');
+const Client = require('@fede14it/node_two_captcha');
 
 // Declare your client
 client = new Client('your_2captcha_key', {
@@ -53,7 +51,7 @@ client.decode({
   console.log(response.text);
 });
 
-> infosimples
+> fede14it
 ```
 
 `decode` is an async function. Valid parameters for `decode` function are:
