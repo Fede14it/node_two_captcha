@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Fede14it/node_two_captcha"
+    "url": "git+https://github.com/Fede14it/node_two_captcha.git"
   },
   "keywords": [
     "api",
